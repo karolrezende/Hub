@@ -1,0 +1,26 @@
+.div{
+    height: 100vh;
+    background-color: #121214;
+    &_header{
+        color: #FF577F;
+        display: flex;
+        gap: 5em;
+        padding: 1em;
+        align-items: center;
+        border-bottom: 1px solid #212529;
+        justify-content: space-between ;
+    }
+    &_title{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    &_course{
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    &_div{
+        width: 200px;
+    }
+}
